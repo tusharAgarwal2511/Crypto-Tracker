@@ -1,0 +1,45 @@
+:root {
+  --dark: #0a0e10;
+  --dark2: #101518;
+  --text: #fff;
+  --main: #f0b90a;
+  --heading: #f0b90a
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--dark);
+}
+
+.App {
+  background-color: var(--dark);
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--heading);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--heading);
+}

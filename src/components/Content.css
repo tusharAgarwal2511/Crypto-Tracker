@@ -1,0 +1,21 @@
+:root {
+    --dark: #0a0e10;
+    --dark2: #101518;
+    --text: #fff;
+    --main: #f0b90a;
+    --heading: #f0b90a
+}
+
+.content{
+    background-color: var(--dark);
+    margin: 135px 3% 5px;
+    padding: 1%;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap ;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
